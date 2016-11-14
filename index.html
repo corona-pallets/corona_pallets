@@ -1,0 +1,51 @@
+<!-- index.html -->
+<!-- document for the corona pallets website,
+    created by Octavio Rodriguez-->
+<!DOCTYPE html>
+<html>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="corona.css" charset="utf-8">
+    <head>
+        <title>Corona Pallet</title>
+        <h1><bold> Corona Pallet </bold></h1>
+    
+    
+    </head>
+
+    <body>
+        <p>
+        <h3><italic>Contact Us!</italic></h3>
+       <ul>
+           <li>E-mail: ggpalletcompany@gmail.com</li>
+           <li>Jorge: (916) 512-5325 </li>
+           <li>Gabino: (916) 812-7765 </li>
+           <li>Fax: (916) 330-1912 </li>
+           
+        </ul>
+        </p>
+    <p><h3><italic> Location: 8000 18th Ave
+Sacramento, CA 95826 </italic></h3></p>
+    
+    <div id="map"></div>
+    <script>
+      function initMap() {
+        var uluru = {lat: 38.535708, lng: -121.410125 };
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 19,
+          center: uluru,
+          mapTypeId: 'satellite'
+        });
+        var marker = new google.maps.Marker({
+          position: uluru,
+          map: map
+        });
+      }
+    </script>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDg48IOG7ivuqblEOORBvHwLo8Y4sxVAMo&callback=initMap">
+    </script>
+    
+    </body>
+
+
+</html>
