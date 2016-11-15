@@ -1,7 +1,20 @@
 /*  corona.css 
     style sheet document for the corona pallets website,
     created by Octavio Rodriguez */
-       #map {
-        height: 200px;
-        width: 25%;
+#map {
+    height: 200px;
+    width: 25%;
        }
+#title {
+    background-color: darkseagreen;
+    height:110px;   
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-bottom: 0px;
+}
+body {
+    margin: 0;
+}
+h1{
+    margin: 0;
+}
