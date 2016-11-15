@@ -7,10 +7,21 @@
        }
 #title {
     background-color: darkseagreen;
-    height:110px;   
+    font-family: fantasy;
+    color: aliceblue;
+    height:90px;   
     padding-top: 10px;
     padding-left: 20px;
-    padding-bottom: 0px;
+}
+#innertitle {
+    font-size: 25px;
+    margin-bottom: 0px;
+    height: 60px;
+
+}
+#services {
+    margin-top: 0;
+    margin-left:110px;
 }
 body {
     margin: 0;
