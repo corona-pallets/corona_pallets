@@ -23,6 +23,27 @@
     margin-top: 0;
     margin-left:110px;
 }
+#picture {
+    margin-top: 100px;
+    position:relative;
+    bottom: 50px;
+    height: 175px;
+}
+#pic1 {
+    position: relative;
+    left:50px;
+}
+#pic2 {
+    position:relative;
+    left: 450px;
+    bottom: 150px;
+}
+#pic3 {
+    position: relative;
+    bottom: 305px;
+    left: 900px;
+    
+}
 body {
     margin: 0;
 }
