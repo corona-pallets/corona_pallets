@@ -1,14 +1,52 @@
 /*  corona.css 
     style sheet document for the corona pallets website,
     created by Octavio Rodriguez */
+#intro {
+    width: 70%;
+    margin-left: 50px;
+    font-size: 20px;
+    color: ;
+    font-family: fantasy;
+}
+#buy {
+    position: relative;
+    top: 165px;
+    left: 40px;
+    font-size: 25px;
+    font-family: fantasy;
+    color: darkseagreen;
+    width: 350px;
+}
+#repair {
+    position: relative;
+    left: 440px;
+    top: 100px;
+    font-size: 20px;
+    font-family: fantasy;
+    width: 350px;
+    color: darkseagreen;
+    
+    
+}
+#recycle{
+    position: relative;
+    top: 15px;
+    left: 875px;
+    font-size: 20px;
+    font-family: fantasy;
+    width: 350px;
+    color: darkseagreen;
+    
+}
 #map {
     height: 200px;
     width: 25%;
        }
 #location {
     position: relative;
-    bottom: 100px;
-    left: 500px;
+    bottom: 405px;
+    left: 700px;
+    font-family: monospace;
 }
 #title {
     background-color: darkseagreen;
@@ -30,8 +68,9 @@
 }
 #picture {
     margin-top: 100px;
+    margin-bottom: 50px;
     position:relative;
-    bottom: 50px;
+    bottom: 300px;
     height: 175px;
 }
 #pic1 {
@@ -50,7 +89,7 @@
 }
 #contact {
     position: relative;
-    top: 50px;
+    bottom: 280px;
     font-family: monospace;
     margin-left: 25px;
     font-size: 15px;
@@ -59,6 +98,8 @@
 }
 body {
     margin: 0;
+    height: 200px;
+    width: 1000px;
 }
 h1{
     margin: 0;
